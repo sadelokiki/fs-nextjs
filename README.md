@@ -54,7 +54,7 @@ Update this README file by answering the questions below.
 
 The date you're submitting this.
 
-### Location of deployed application
+### Location of deployed application (not necessary for Junior Engineers)
 
 Please provide the url where we can find and interact with your running application.
 
