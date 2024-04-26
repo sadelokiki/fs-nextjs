@@ -35,7 +35,7 @@ npx prisma migrate dev --name init
 Seed the database with the sample data from [`prisma/seed.js`](./prisma/seed.js).
 
 ```
-npx prisma db seed --preview-feature
+npx prisma db seed
 ```
 
 ### 5. Start the app
@@ -89,4 +89,3 @@ If applicable. Did you do something that you feel could have been done better in
 ### Your feedback on this technical challenge
 
 Have feedback for how we could make this assignment better? Please let us know.
-

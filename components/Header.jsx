@@ -9,9 +9,7 @@ export const Header = () => {
   return (
     <nav>
       <Link href="/">
-        <a data-active={isActive('/')}>
-          <b>Journal</b>
-        </a>
+        <b>Journal</b>
       </Link>
       <style jsx>{`
         nav {
