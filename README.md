@@ -32,12 +32,6 @@ Create a local SQLite database and run migrations.
 npx prisma migrate dev --name init
 ```
 
-Seed the database with the sample data from [`prisma/seed.js`](./prisma/seed.js).
-
-```
-npx prisma db seed
-```
-
 ### 5. Start the app
 
 ```
