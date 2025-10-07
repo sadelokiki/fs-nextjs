@@ -1,3 +1,5 @@
+import "./globals.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import type React from 'react';
 import { Layout } from '../components/Layout';
 
