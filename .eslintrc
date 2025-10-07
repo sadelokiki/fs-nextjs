@@ -1,6 +1,7 @@
 {
   "root": true,
   "parserOptions": {
+    "project": "./tsconfig.json",
     "ecmaVersion": 2020,
     "sourceType": "module",
     "ecmaFeatures": {
@@ -22,7 +23,9 @@
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "next",
+    "next/core-web-vitals"
   ],
   "rules": {
     "prettier/prettier": ["error", {}, { "usePrettierrc": true }],
