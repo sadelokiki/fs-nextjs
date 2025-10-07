@@ -41,7 +41,7 @@ yarn dev
 The app is now running, navigate to [`http://localhost:3000/`](http://localhost:3000/) in your browser to explore its UI.
 
 
-✅ Test Plan
+## Test Plan
 Functional
 
 - Anonymous user can create a journal entry
@@ -73,6 +73,10 @@ Accessibility
 Responsiveness
 
 - Layout adapts across mobile and desktop
+
+## Submission Summary
+
+This implementation fulfills all functional and technical requirements for the multi-user journal. Anonymous users can post and view global entries, while each user’s profile isolates their own posts. The app is deployed on Vercel with Supabase (PostgreSQL) connected through Supavisor connection pooling for scalable, serverless-safe performance in production.
 
 
 ## Submission
