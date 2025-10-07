@@ -1,9 +1,6 @@
 .next/
 .env
 
-# Local SQLite db
-/prisma/dev.db
-
 # npm
 node_modules
 *.log
